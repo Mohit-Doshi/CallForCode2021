@@ -45,17 +45,21 @@ render() {
 
 
 
+
+
+
     return (
       // render logic here
       
-      <div>
+      <div style={{"width":"100%"}}>
           <p>The points are {points} </p>
 
-        <div id="cpns">
-            <h2>&nbsp;&nbsp;&nbsp;Available Coupons</h2>
+        <div id="cpns" style={{"float":"left","width":"50%"}}>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Available Coupons</h2>
             <Coupon />
         </div>
-        <div id="charities">
+        <div id="charities" style={{"float":"left","width":"50%", "text-align":"center"}}>
+          <h2>&nbsp;&nbsp;&nbsp;Nearby Charities You can donate to</h2>
           <TableContainer className={style.container}>
               <Table stickyHeader aria-label="sticky table">
               <TableHead>

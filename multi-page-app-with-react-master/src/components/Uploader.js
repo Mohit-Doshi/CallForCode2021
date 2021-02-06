@@ -296,6 +296,8 @@ export default class Uploader extends Component {
                         </Badge>
                     </Grid>
                 </Grid>
+                <h1>The footprint score is {calculateFootprint(this.state.catdistances)}</h1>
+        <h2>The POINTS score is {calculatePoints(this.state.catdurations)}</h2>
                 <Grid container justify="center" alignItems="flex-start">
                     <Paper>
                         <Chart
@@ -315,8 +317,7 @@ export default class Uploader extends Component {
                     </Paper>
                 </Grid>
 
-        <p>The footprint score is {calculateFootprint(this.state.catdistances)}</p>
-        <p>The POINTS score is {calculatePoints(this.state.catdurations)}</p>
+        
         </div>
         );
       }
