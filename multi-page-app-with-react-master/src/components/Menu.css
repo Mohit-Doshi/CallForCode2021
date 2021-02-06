@@ -42,3 +42,12 @@
 .button {
   margin: 1px;
 }
+
+.icons {
+  padding: 2px;
+  text-align: center;
+}
+
+.file {
+  padding: 20px;
+}

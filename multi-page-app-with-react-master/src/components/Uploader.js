@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import Files from 'react-files';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import CountUp from 'react-countup';
 import style from './Menu.css';
+import Grid from '@material-ui/core/Grid';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
+import DirectionsWalkRoundedIcon from '@material-ui/icons/DirectionsWalkRounded';
+import DirectionsBikeRoundedIcon from '@material-ui/icons/DirectionsBikeRounded';
+import DirectionsBusRoundedIcon from '@material-ui/icons/DirectionsBusRounded';
+import EmojiTransportationRoundedIcon from '@material-ui/icons/EmojiTransportationRounded';
+import Badge from '@material-ui/core/Badge';
 
 import Menu from '../components/Menu';
 import { Button } from '@material-ui/core';
@@ -143,103 +148,92 @@ export default class Uploader extends Component {
             <div className="files">
                 
                 <Menu />
-                <Button
-                    variant="contained"
-                    color="default"
-                    className={style.button}
-                    startIcon={<CloudUploadIcon />}
-                >
-                    <Files
-                        onChange={file => {
-                        // we choose readAsText() to load our file, and onload
-                        // event we rigister in this.fileReader would be triggered.
-                        this.fileReader.readAsText(file[0]);
-                        }}
+                <Grid container className={style.file} justify="center" alignItems="center">
+                    <Button
+                        variant="contained"
+                        color="default"
+                        className={style.button}
+                        startIcon={<CloudUploadIcon />}
                     >
-                    Drop files here or click to upload
-                    </Files>
-                </Button>
-                
-                <Card style={{
-            maxWidth: 200,
-            height: 140,
-            textAlign: 'center'
-        }}>
-            <CardContent>
-            <Typography variant="h3" component="h3">
-                Walk
-            </Typography>
-            <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["WALK"] ? 
-                <>
-                <CountUp
-                    end={this.state.categories["WALK"]}
-                    duration={2}
-                />
-                </> : null}
-            </Typography>
-            </CardContent>
-        </Card>
-        <Card style={{
-            maxWidth: 200,
-            height: 140,
-            textAlign: 'center'
-        }}>
-            <CardContent>
-            <Typography variant="h3" component="h3">
-                TRANSIT
-            </Typography>
-            <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["TRANSIT"] ? 
-                <>
-                <CountUp
-                    end={this.state.categories["TRANSIT"]}
-                    duration={2}
-                />
-                </> : null}
-            </Typography>
-            </CardContent>
-        </Card>
-        <Card style={{
-            maxWidth: 200,
-            height: 140,
-            textAlign: 'center'
-        }}>
-            <CardContent>
-            <Typography variant="h3" component="h3">
-                BIKE
-            </Typography>
-            <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["BIKE"] ? 
-                <>
-                <CountUp
-                    end={this.state.categories["BIKE"]}
-                    duration={2}
-                />
-                </> : null}
-            </Typography>
-            </CardContent>
-        </Card>
-        <Card style={{
-            maxWidth: 200,
-            height: 140,
-            textAlign: 'center'
-        }}>
-            <CardContent>
-            <Typography variant="h3" component="h3">
-                Vehicle
-            </Typography>
-            <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["VEHICLE"] ? 
-                <>
-                <CountUp
-                    end={this.state.categories["VEHICLE"]}
-                    duration={2}
-                />
-                </> : null}
-            </Typography>
-            </CardContent>
-        </Card>
+                        <Files
+                            onChange={file => {
+                            // we choose readAsText() to load our file, and onload
+                            // event we rigister in this.fileReader would be triggered.
+                            this.fileReader.readAsText(file[0]);
+                            }}
+                        >
+                        Drop files here or click to upload
+                        </Files>
+                    </Button>
+                </Grid>
+
+                <Grid container spacing={4}>
+                    <Grid item xs className={style.icons}>
+                        <Badge
+                            badgeContent={
+                                this.state.categories["WALK"] ? 
+                                <>
+                                <CountUp
+                                    end={this.state.categories["WALK"]}
+                                    duration={2}
+                                />
+                                </> : null
+                            }
+                            color="primary"
+                            showZero={true}
+                        >
+                            <DirectionsWalkRoundedIcon style={{fontSize: '100px'}} />
+                        </Badge>
+                    </Grid>
+                    <Grid item xs className={style.icons}>
+                        <Badge
+                            badgeContent={
+                                this.state.categories["BIKE"] ? 
+                                <>
+                                <CountUp
+                                    end={this.state.categories["BIKE"]}
+                                    duration={2}
+                                />
+                                </> : null
+                            }
+                            color="primary"
+                        >
+                            <DirectionsBikeRoundedIcon style={{fontSize: '100px'}} />
+                        </Badge>
+                    </Grid>
+                    <Grid item xs className={style.icons}>
+                        <Badge
+                            badgeContent={
+                                this.state.categories["TRANSIT"] ? 
+                                <>
+                                <CountUp
+                                    end={this.state.categories["TRANSIT"]}
+                                    duration={2}
+                                />
+                                </> : null
+                            }
+                            color="primary"
+                        >
+                            <DirectionsBusRoundedIcon style={{fontSize: '100px'}} />
+                        </Badge>
+                    </Grid>
+                    <Grid item xs className={style.icons}>
+                        <Badge
+                            badgeContent={
+                                this.state.categories["VEHICLE"] ? 
+                                <>
+                                <CountUp
+                                    end={this.state.categories["VEHICLE"]}
+                                    duration={2}
+                                />
+                                </> : null
+                            }
+                            color="primary"
+                        >
+                            <EmojiTransportationRoundedIcon style={{fontSize: '100px'}} />
+                        </Badge>
+                    </Grid>
+                </Grid>
         <p>The footprint score is {calculateFootprint(this.state.catdistances)}</p>
         <p>The POINTS score is {calculatePoints(this.state.catdurations)}</p>
         </div>
