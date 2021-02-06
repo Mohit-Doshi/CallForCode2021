@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Menu.css';
+import style from './Menu.css';
 
 export default class Menu extends Component {
 
   render() {
     return (
-      <div class="nav">
+      <div className={style.nav}>
         <ul>
           <li><a href="/index.html">Home</a></li>
           <li><a href="/products/product-1.html">Product</a></li>
