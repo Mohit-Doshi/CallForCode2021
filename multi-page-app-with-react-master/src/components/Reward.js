@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Coupon from '../components/Coupon';
 
 
 
@@ -15,6 +16,7 @@ render() {
       
       <div>
           <p>The points are {points} </p>
+          <Coupon />
       </div>
     )
   }
