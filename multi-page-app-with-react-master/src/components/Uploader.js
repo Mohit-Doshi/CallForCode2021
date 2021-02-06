@@ -27,7 +27,6 @@ import { Button } from '@material-ui/core';
 function calculateFootprint(arr)  {    // 0 - walking, 1 - biking, 2 - transit, 3 - vehicle 
 
     var fprint = 0;
-    debugger;
 
     for(let i = 0; i < arr.length; i++) {
         for(let j = 0; j < arr[i].length; j++) {
@@ -95,7 +94,7 @@ function generatePieData(dist, dur) {
             });
         }
     }
-    debugger;
+    // debugger;
     return pieData;
 }
 
@@ -144,9 +143,8 @@ export default class Uploader extends Component {
       
           // or do whatever manipulation you want on JSON.parse(event.target.result) here.
     
-          // debugger;
-    
           // console.log(JSON.parse(event.target.result));
+
       
           this.setState({ jsonFile: JSON.parse(event.target.result) }, () => {
             console.log(this.state.jsonFile);
@@ -187,6 +185,7 @@ export default class Uploader extends Component {
               cats[obj.transportMode] += 1;
             }
           });
+        //   debugger;
           this.setState({
             catdistances,
             distances,
@@ -197,6 +196,11 @@ export default class Uploader extends Component {
         };
       
       }
+
+    //   handleFileChange = (file) => {
+    //       debugger;
+    //       this.fileReader.readAsText(file[0]);
+    //   }
 
     
       render() {
@@ -217,6 +221,7 @@ export default class Uploader extends Component {
                             // we choose readAsText() to load our file, and onload
                             // event we rigister in this.fileReader would be triggered.
                             this.fileReader.readAsText(file[0]);
+                            // this.handleFileChange(file);
                             }}
                         >
                         Drop files here or click to upload
@@ -237,7 +242,7 @@ export default class Uploader extends Component {
                                 </> : null
                             }
                             color="primary"
-                            showZero={true}
+                            showZero
                         >
                             <DirectionsWalkRoundedIcon style={{fontSize: '150px'}} />
                         </Badge>
@@ -309,6 +314,7 @@ export default class Uploader extends Component {
                         </Chart>
                     </Paper>
                 </Grid>
+
         <p>The footprint score is {calculateFootprint(this.state.catdistances)}</p>
         <p>The POINTS score is {calculatePoints(this.state.catdurations)}</p>
         </div>

@@ -51,3 +51,7 @@
 .file {
   padding: 20px;
 }
+
+.container {
+  max-height: 440;
+}
