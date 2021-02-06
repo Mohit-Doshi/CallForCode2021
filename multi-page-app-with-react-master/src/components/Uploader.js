@@ -239,7 +239,7 @@ export default class Uploader extends Component {
                             color="primary"
                             showZero={true}
                         >
-                            <DirectionsWalkRoundedIcon style={{fontSize: '100px'}} />
+                            <DirectionsWalkRoundedIcon style={{fontSize: '150px'}} />
                         </Badge>
                     </Grid>
                     <Grid item xs className={style.icons}>
@@ -255,7 +255,7 @@ export default class Uploader extends Component {
                             }
                             color="primary"
                         >
-                            <DirectionsBikeRoundedIcon style={{fontSize: '100px'}} />
+                            <DirectionsBikeRoundedIcon style={{fontSize: '150px'}} />
                         </Badge>
                     </Grid>
                     <Grid item xs className={style.icons}>
@@ -271,7 +271,7 @@ export default class Uploader extends Component {
                             }
                             color="primary"
                         >
-                            <DirectionsBusRoundedIcon style={{fontSize: '100px'}} />
+                            <DirectionsBusRoundedIcon style={{fontSize: '150px'}} />
                         </Badge>
                     </Grid>
                     <Grid item xs className={style.icons}>
@@ -287,7 +287,7 @@ export default class Uploader extends Component {
                             }
                             color="primary"
                         >
-                            <EmojiTransportationRoundedIcon style={{fontSize: '100px'}} />
+                            <EmojiTransportationRoundedIcon style={{fontSize: '150px'}} />
                         </Badge>
                     </Grid>
                 </Grid>

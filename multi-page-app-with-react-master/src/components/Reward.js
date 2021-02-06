@@ -16,6 +16,9 @@ render() {
       
       <div>
           <p>The points are {points} </p>
+
+        <h2>Available Coupons</h2>
+
           <Coupon />
       </div>
     )
