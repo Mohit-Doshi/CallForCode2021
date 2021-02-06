@@ -1,0 +1,1849 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334226663,
+        "longitudeE7" : -1119369484,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334194976,
+        "longitudeE7" : -1119349224,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612144338623",
+        "endTimestampMs" : "1612144926911"
+      },
+      "distance" : 478,
+      "activityType" : "CYCLING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 82.69360065460205
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 15.010643005371094
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.0590830817818642
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5975560750812292
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.3351168939843774
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.12685590190812945
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07351227686740458
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.05862531834281981
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02422825200483203
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.012116243306081742
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.004799517046194524
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0036050667404197156
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 2.204695647378685E-4
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 2.2280742939528864E-5
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 5.682316484012517E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334225921,
+          "lngE7" : -1119366531
+        }, {
+          "latE7" : 334202995,
+          "lngE7" : -1119360809
+        }, {
+          "latE7" : 334194984,
+          "lngE7" : -1119350585
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334191474,
+        "longitudeE7" : -1119345634,
+        "placeId" : "ChIJCWkre9sIK4cRuVWh49iRlsg",
+        "address" : "300 Orange Mall\nTempe, AZ 85281\nUSA",
+        "name" : "Hayden Library",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 66.18707
+      },
+      "duration" : {
+        "startTimestampMs" : "1612144926911",
+        "endTimestampMs" : "1612151720476"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 334192317,
+      "centerLngE7" : -1119346093,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "locationConfidence" : 32.350426
+      }, {
+        "latitudeE7" : 334210967,
+        "longitudeE7" : -1119355431,
+        "placeId" : "ChIJAd5J59sIK4cRuPPhKLtVjJs",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.7365965
+      }, {
+        "latitudeE7" : 334193598,
+        "longitudeE7" : -1119374528,
+        "placeId" : "ChIJx1a-tNsIK4cRq3cnUpVXV5w",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5345975
+      }, {
+        "latitudeE7" : 334201172,
+        "longitudeE7" : -1119321364,
+        "placeId" : "ChIJDYmAUNwIK4cRR7d4s2RKef8",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.05620221
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334191278,
+        "longitudeE7" : -1119345526,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334224866,
+        "longitudeE7" : -1119363114,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612151720476",
+        "endTimestampMs" : "1612152126541"
+      },
+      "distance" : 660,
+      "activityType" : "CYCLING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 89.95585441589355
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 8.333540707826614
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.868492852896452
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5228599533438683
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.12907133204862475
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.09236236219294369
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.043014666880480945
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.02125458704540506
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.013911440328229219
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.013848811795469373
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.003951513281208463
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0016924184819799848
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 1.0790793112391839E-4
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 1.8726545647496096E-5
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.0051002163891098E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334191284,
+          "lngE7" : -1119341506
+        }, {
+          "latE7" : 334202957,
+          "lngE7" : -1119354171
+        }, {
+          "latE7" : 334225921,
+          "lngE7" : -1119363098
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "address" : "Tempe, AZ 85281\nUSA",
+        "name" : "Arizona State University",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 51.5297
+      },
+      "duration" : {
+        "startTimestampMs" : "1612152126541",
+        "endTimestampMs" : "1612302867681"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 334227161,
+          "longitudeE7" : -1119377406,
+          "placeId" : "ChIJOTM5EtkIK4cRcDn14TheUDg",
+          "address" : "712 S Forest Ave\nTempe, AZ 85281\nUSA",
+          "name" : "Union Tempe",
+          "sourceInfo" : {
+            "deviceTag" : -706032775
+          },
+          "locationConfidence" : 95.90869
+        },
+        "duration" : {
+          "startTimestampMs" : "1612152126541",
+          "endTimestampMs" : "1612191776195"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 334226148,
+        "centerLngE7" : -1119368585,
+        "visitConfidence" : 95,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 334259350,
+          "longitudeE7" : -1119367793,
+          "placeId" : "ChIJfUDSRpQJK4cR6mV5oldVlpQ",
+          "locationConfidence" : 0.059965875
+        }, {
+          "latitudeE7" : 334261205,
+          "longitudeE7" : -1119366379,
+          "placeId" : "ChIJEyiyk9gIK4cR9f-yioa6cvQ",
+          "locationConfidence" : 0.03126137
+        }, {
+          "latitudeE7" : 334234107,
+          "longitudeE7" : -1119352286,
+          "placeId" : "ChIJDT3Y19gIK4cRRWX59F14MUU",
+          "locationConfidence" : 0.027571214
+        }, {
+          "latitudeE7" : 334234655,
+          "longitudeE7" : -1119352823,
+          "placeId" : "ChIJt_z8OtkIK4cRMmGvA-NyhLw",
+          "locationConfidence" : 0.01847979
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 334226148,
+      "centerLngE7" : -1119368585,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334227600,
+        "longitudeE7" : -1119367752,
+        "placeId" : "ChIJpfSNC9kIK4cRLDJIay2zJDk",
+        "locationConfidence" : 8.161164
+      }, {
+        "latitudeE7" : 334226952,
+        "longitudeE7" : -1119368591,
+        "placeId" : "ChIJHWrpDNkIK4cRorgktM5G7kI",
+        "locationConfidence" : 7.685469
+      }, {
+        "latitudeE7" : 334238448,
+        "longitudeE7" : -1119347168,
+        "placeId" : "ChIJ9Wd6mGYGK4cR0SgXwes1TPI",
+        "locationConfidence" : 2.9806857
+      }, {
+        "latitudeE7" : 334210967,
+        "longitudeE7" : -1119355431,
+        "placeId" : "ChIJAd5J59sIK4cRuPPhKLtVjJs",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.15794
+      }, {
+        "latitudeE7" : 334251635,
+        "longitudeE7" : -1119359901,
+        "placeId" : "ChIJV5ol6tgIK4cRIY_nGPNyAC8",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.8938913
+      }, {
+        "latitudeE7" : 334215572,
+        "longitudeE7" : -1119370626,
+        "placeId" : "ChIJm4PwftkIK4cRfVyKqEz8oWc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.6205494
+      }, {
+        "latitudeE7" : 334213885,
+        "longitudeE7" : -1119402994,
+        "placeId" : "ChIJf-wTWNcIK4cRQcDc_UFSd7Q",
+        "locationConfidence" : 0.48327482
+      }, {
+        "latitudeE7" : 334229807,
+        "longitudeE7" : -1119363853,
+        "placeId" : "ChIJo2u-FNkIK4cRHxMziVtorv0",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.4802362
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 334226587,
+          "lngE7" : -1119369338,
+          "timestampMs" : "1612282683286",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225908,
+          "lngE7" : -1119368114,
+          "timestampMs" : "1612282713448",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226411,
+          "lngE7" : -1119368912,
+          "timestampMs" : "1612283098793",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 334225949,
+          "lngE7" : -1119368022,
+          "timestampMs" : "1612283138815",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226263,
+          "lngE7" : -1119369015,
+          "timestampMs" : "1612283720934",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 334225918,
+          "lngE7" : -1119368068,
+          "timestampMs" : "1612285588744",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226569,
+          "lngE7" : -1119368991,
+          "timestampMs" : "1612286089701",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226028,
+          "lngE7" : -1119368141,
+          "timestampMs" : "1612287166120",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226594,
+          "lngE7" : -1119369398,
+          "timestampMs" : "1612287849635",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225952,
+          "lngE7" : -1119368182,
+          "timestampMs" : "1612289486813",
+          "accuracyMeters" : 12
+        }, {
+          "latE7" : 334226522,
+          "lngE7" : -1119369596,
+          "timestampMs" : "1612289633973",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334226088,
+          "lngE7" : -1119368081,
+          "timestampMs" : "1612290447397",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226522,
+          "lngE7" : -1119369596,
+          "timestampMs" : "1612291049253",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334225973,
+          "lngE7" : -1119368226,
+          "timestampMs" : "1612291866535",
+          "accuracyMeters" : 13
+        }, {
+          "latE7" : 334226530,
+          "lngE7" : -1119369601,
+          "timestampMs" : "1612292012637",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225836,
+          "lngE7" : -1119368284,
+          "timestampMs" : "1612293358202",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226461,
+          "lngE7" : -1119369215,
+          "timestampMs" : "1612293369975",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225914,
+          "lngE7" : -1119368153,
+          "timestampMs" : "1612293523173",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226477,
+          "lngE7" : -1119369354,
+          "timestampMs" : "1612293619001",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334225949,
+          "lngE7" : -1119368190,
+          "timestampMs" : "1612293919792",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226579,
+          "lngE7" : -1119369364,
+          "timestampMs" : "1612294021834",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225908,
+          "lngE7" : -1119368039,
+          "timestampMs" : "1612294620278",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226588,
+          "lngE7" : -1119369365,
+          "timestampMs" : "1612294722407",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225852,
+          "lngE7" : -1119368098,
+          "timestampMs" : "1612295081333",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226547,
+          "lngE7" : -1119369390,
+          "timestampMs" : "1612295123911",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225977,
+          "lngE7" : -1119368113,
+          "timestampMs" : "1612295139665",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334226560,
+          "lngE7" : -1119369427,
+          "timestampMs" : "1612295328161",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226374,
+          "lngE7" : -1119368150,
+          "timestampMs" : "1612295387419",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 334226451,
+          "lngE7" : -1119369149,
+          "timestampMs" : "1612295429777",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225917,
+          "lngE7" : -1119368081,
+          "timestampMs" : "1612295874112",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226558,
+          "lngE7" : -1119369346,
+          "timestampMs" : "1612296214606",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225974,
+          "lngE7" : -1119367969,
+          "timestampMs" : "1612296251356",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226380,
+          "lngE7" : -1119368966,
+          "timestampMs" : "1612296411382",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225850,
+          "lngE7" : -1119368062,
+          "timestampMs" : "1612296599542",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226380,
+          "lngE7" : -1119368966,
+          "timestampMs" : "1612296775998",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225905,
+          "lngE7" : -1119368215,
+          "timestampMs" : "1612297506677",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226380,
+          "lngE7" : -1119368966,
+          "timestampMs" : "1612297558835",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225875,
+          "lngE7" : -1119368180,
+          "timestampMs" : "1612298727061",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226577,
+          "lngE7" : -1119369343,
+          "timestampMs" : "1612298752616",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225866,
+          "lngE7" : -1119368262,
+          "timestampMs" : "1612299058138",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226290,
+          "lngE7" : -1119369041,
+          "timestampMs" : "1612299508559",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 334225832,
+          "lngE7" : -1119368132,
+          "timestampMs" : "1612299761231",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226535,
+          "lngE7" : -1119369365,
+          "timestampMs" : "1612300388191",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225932,
+          "lngE7" : -1119368120,
+          "timestampMs" : "1612301080248",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226608,
+          "lngE7" : -1119369468,
+          "timestampMs" : "1612301182345",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334225854,
+          "lngE7" : -1119368143,
+          "timestampMs" : "1612301629937",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226470,
+          "lngE7" : -1119369260,
+          "timestampMs" : "1612301997742",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225941,
+          "lngE7" : -1119368075,
+          "timestampMs" : "1612302571835",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334226582,
+          "lngE7" : -1119369434,
+          "timestampMs" : "1612302711999",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334224939,
+          "lngE7" : -1119368739,
+          "timestampMs" : "1612302836331",
+          "accuracyMeters" : 14
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334225527,
+        "longitudeE7" : -1119367274,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334239610,
+        "longitudeE7" : -1119387136,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612302867681",
+        "endTimestampMs" : "1612303045994"
+      },
+      "distance" : 241,
+      "activityType" : "CYCLING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 61.61465644836426
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 35.95269322395325
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.2233593501150608
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.6355096120387316
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.19705456215888262
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.11785324895754457
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.09042937308549881
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.07580741075798869
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.06437242263928056
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.019151448213960975
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0049623769882600754
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0027011668862542138
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 9.010602298076265E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 5.575767772825202E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.500977715538035E-10
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334225921,
+          "lngE7" : -1119366531
+        }, {
+          "latE7" : 334231986,
+          "lngE7" : -1119368286
+        }, {
+          "latE7" : 334237556,
+          "lngE7" : -1119385986
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334235981,
+        "longitudeE7" : -1119395366,
+        "placeId" : "ChIJ0zSTMtgIK4cRVxfPuPYr4U8",
+        "address" : "Brickyard Engineering\n699 S Mill Ave\nTempe, AZ 85281\nUSA",
+        "name" : "Brickyard Engineering",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 83.86959
+      },
+      "duration" : {
+        "startTimestampMs" : "1612303045994",
+        "endTimestampMs" : "1612303260543"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 334239610,
+      "centerLngE7" : -1119387136,
+      "visitConfidence" : 63,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "locationConfidence" : 4.836242
+      }, {
+        "latitudeE7" : 334234996,
+        "longitudeE7" : -1119390249,
+        "placeId" : "ChIJmZ6aytkIK4cROoDOd7xpPcU",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 3.452854
+      }, {
+        "latitudeE7" : 334253253,
+        "longitudeE7" : -1119404126,
+        "placeId" : "ChIJ-2Wm2T4JK4cRAO37KVThkcs",
+        "locationConfidence" : 0.51918393
+      }, {
+        "latitudeE7" : 334255104,
+        "longitudeE7" : -1119400054,
+        "placeId" : "ChIJ44CqppgIK4cRH7QsOa1K3aI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.31171173
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334237984,
+        "longitudeE7" : -1119388743,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334231430,
+        "longitudeE7" : -1119371282,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612303260543",
+        "endTimestampMs" : "1612303381607"
+      },
+      "distance" : 177,
+      "activityType" : "CYCLING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 79.07647490501404
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 17.25553721189499
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.5739001333713531
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.2938650324940681
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3183845663443208
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.20895558409392834
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.14918757369741797
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.05371528095565736
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04649900656659156
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.013392031542025506
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.007320236909436062
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.002158709139621351
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 5.064666765974835E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 1.0562595207375125E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.6356905546975895E-8
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334237136,
+          "lngE7" : -1119388732
+        }, {
+          "latE7" : 334231872,
+          "lngE7" : -1119384078
+        }, {
+          "latE7" : 334231948,
+          "lngE7" : -1119371261
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334231430,
+        "longitudeE7" : -1119371282,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334225918,
+        "longitudeE7" : -1119368028,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612303381607",
+        "endTimestampMs" : "1612303729387"
+      },
+      "distance" : 212,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 54.42851781845093
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 38.78799378871918
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.6676091849803925
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.1047651059925556
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5176509264856577
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.2066527958959341
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.13055566232651472
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.120722153224051
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.008650963718537241
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00800997659098357
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0074202733230777085
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.005426254210760817
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.003881939483107999
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.002143808887922205
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.812003640141675E-10
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334231605,
+          "lngE7" : -1119371261
+        }, {
+          "latE7" : 334231643,
+          "lngE7" : -1119368286
+        }, {
+          "latE7" : 334225921,
+          "lngE7" : -1119366989
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "address" : "Tempe, AZ 85281\nUSA",
+        "name" : "Arizona State University",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 32.88875
+      },
+      "duration" : {
+        "startTimestampMs" : "1612303729387",
+        "endTimestampMs" : "1612410697913"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 334227161,
+          "longitudeE7" : -1119377406,
+          "placeId" : "ChIJOTM5EtkIK4cRcDn14TheUDg",
+          "address" : "712 S Forest Ave\nTempe, AZ 85281\nUSA",
+          "name" : "Union Tempe",
+          "sourceInfo" : {
+            "deviceTag" : -706032775
+          },
+          "locationConfidence" : 95.27327
+        },
+        "duration" : {
+          "startTimestampMs" : "1612303729387",
+          "endTimestampMs" : "1612325118102"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 334225817,
+        "centerLngE7" : -1119368076,
+        "visitConfidence" : 89,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 334213885,
+          "longitudeE7" : -1119402994,
+          "placeId" : "ChIJf-wTWNcIK4cRQcDc_UFSd7Q",
+          "locationConfidence" : 0.03202646
+        }, {
+          "latitudeE7" : 334234107,
+          "longitudeE7" : -1119352286,
+          "placeId" : "ChIJDT3Y19gIK4cRRWX59F14MUU",
+          "locationConfidence" : 0.018512253
+        }, {
+          "latitudeE7" : 334221680,
+          "longitudeE7" : -1119368280,
+          "placeId" : "ChIJ91whdMMJK4cR2KunDcjgm5Q",
+          "locationConfidence" : 0.010334217
+        }, {
+          "latitudeE7" : 334234655,
+          "longitudeE7" : -1119352823,
+          "placeId" : "ChIJt_z8OtkIK4cRMmGvA-NyhLw",
+          "locationConfidence" : 0.009038492
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 334225817,
+      "centerLngE7" : -1119368076,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334227600,
+        "longitudeE7" : -1119367752,
+        "placeId" : "ChIJpfSNC9kIK4cRLDJIay2zJDk",
+        "locationConfidence" : 6.0203896
+      }, {
+        "latitudeE7" : 334226952,
+        "longitudeE7" : -1119368591,
+        "placeId" : "ChIJHWrpDNkIK4cRorgktM5G7kI",
+        "locationConfidence" : 4.961529
+      }, {
+        "latitudeE7" : 334238448,
+        "longitudeE7" : -1119347168,
+        "placeId" : "ChIJ9Wd6mGYGK4cR0SgXwes1TPI",
+        "locationConfidence" : 1.3779529
+      }, {
+        "latitudeE7" : 334210967,
+        "longitudeE7" : -1119355431,
+        "placeId" : "ChIJAd5J59sIK4cRuPPhKLtVjJs",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.2584033
+      }, {
+        "latitudeE7" : 334215572,
+        "longitudeE7" : -1119370626,
+        "placeId" : "ChIJm4PwftkIK4cRfVyKqEz8oWc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5077708
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 334225844,
+          "lngE7" : -1119368250,
+          "timestampMs" : "1612380795817",
+          "accuracyMeters" : 25
+        }, {
+          "latE7" : 334224130,
+          "lngE7" : -1119370608,
+          "timestampMs" : "1612410338495",
+          "accuracyMeters" : 36
+        }, {
+          "latE7" : 334225740,
+          "lngE7" : -1119367950,
+          "timestampMs" : "1612410422024",
+          "accuracyMeters" : 16
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334226073,
+        "longitudeE7" : -1119367781,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334242845,
+        "longitudeE7" : -1119395819,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612410697913",
+        "endTimestampMs" : "1612411011408"
+      },
+      "distance" : 381,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 86.83233261108398
+      }, {
+        "activityType" : "STILL",
+        "probability" : 6.5276578068733215
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.089147016406059
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.0899724438786507
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.3559572156518698
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.030756255728192627
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.024846108863130212
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.017158132686745375
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.009831340139498934
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.008951740164775401
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0073289978899993
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.002728293839027174
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0019672996131703258
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0013687912542081904
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 7.417058633940599E-9
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334225921,
+          "lngE7" : -1119366989
+        }, {
+          "latE7" : 334234924,
+          "lngE7" : -1119366912
+        }, {
+          "latE7" : 334243125,
+          "lngE7" : -1119395828
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334235981,
+        "longitudeE7" : -1119395366,
+        "placeId" : "ChIJ0zSTMtgIK4cRVxfPuPYr4U8",
+        "address" : "Brickyard Engineering\n699 S Mill Ave\nTempe, AZ 85281\nUSA",
+        "name" : "Brickyard Engineering",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 88.50402
+      },
+      "duration" : {
+        "startTimestampMs" : "1612411011408",
+        "endTimestampMs" : "1612411277039"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 334242845,
+      "centerLngE7" : -1119395819,
+      "visitConfidence" : 65,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "locationConfidence" : 2.8346772
+      }, {
+        "latitudeE7" : 334234996,
+        "longitudeE7" : -1119390249,
+        "placeId" : "ChIJmZ6aytkIK4cROoDOd7xpPcU",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.90964663
+      }, {
+        "latitudeE7" : 334253330,
+        "longitudeE7" : -1119404577,
+        "placeId" : "ChIJXb2K-NcIK4cRtRSItjx_BIA",
+        "locationConfidence" : 0.7708475
+      }, {
+        "latitudeE7" : 334255104,
+        "longitudeE7" : -1119400054,
+        "placeId" : "ChIJ44CqppgIK4cRH7QsOa1K3aI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.47398576
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334238768,
+        "longitudeE7" : -1119391765,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334225835,
+        "longitudeE7" : -1119368191,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612411277039",
+        "endTimestampMs" : "1612411497399"
+      },
+      "distance" : 261,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 88.83591294288635
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 6.4761824905872345
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.6490341871976852
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.4705320820212364
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.45241289772093296
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.025578943314030766
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.025273323990404606
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.02452187763992697
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.024489438510499895
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.012443021114449948
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0016816045899759047
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 9.641275937610772E-4
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 7.788333277858328E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 1.9989622614957625E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.4772046919020454E-7
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334238777,
+          "lngE7" : -1119391632
+        }, {
+          "latE7" : 334234924,
+          "lngE7" : -1119366912
+        }, {
+          "latE7" : 334225921,
+          "lngE7" : -1119366989
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "address" : "Tempe, AZ 85281\nUSA",
+        "name" : "Arizona State University",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 36.965096
+      },
+      "duration" : {
+        "startTimestampMs" : "1612411497399",
+        "endTimestampMs" : "1612468916700"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 334227161,
+          "longitudeE7" : -1119377406,
+          "placeId" : "ChIJOTM5EtkIK4cRcDn14TheUDg",
+          "address" : "712 S Forest Ave\nTempe, AZ 85281\nUSA",
+          "name" : "Union Tempe",
+          "sourceInfo" : {
+            "deviceTag" : -706032775
+          },
+          "locationConfidence" : 95.90394
+        },
+        "duration" : {
+          "startTimestampMs" : "1612411497399",
+          "endTimestampMs" : "1612440585808"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 334225786,
+        "centerLngE7" : -1119367992,
+        "visitConfidence" : 89,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 334213885,
+          "longitudeE7" : -1119402994,
+          "placeId" : "ChIJf-wTWNcIK4cRQcDc_UFSd7Q",
+          "locationConfidence" : 0.03806581
+        }, {
+          "latitudeE7" : 334221680,
+          "longitudeE7" : -1119368280,
+          "placeId" : "ChIJ91whdMMJK4cR2KunDcjgm5Q",
+          "locationConfidence" : 0.013605276
+        }, {
+          "latitudeE7" : 334234107,
+          "longitudeE7" : -1119352286,
+          "placeId" : "ChIJDT3Y19gIK4cRRWX59F14MUU",
+          "locationConfidence" : 0.011957013
+        }, {
+          "latitudeE7" : 334234655,
+          "longitudeE7" : -1119352823,
+          "placeId" : "ChIJt_z8OtkIK4cRMmGvA-NyhLw",
+          "locationConfidence" : 0.0093302615
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 334225786,
+      "centerLngE7" : -1119367992,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334227600,
+        "longitudeE7" : -1119367752,
+        "placeId" : "ChIJpfSNC9kIK4cRLDJIay2zJDk",
+        "locationConfidence" : 6.581595
+      }, {
+        "latitudeE7" : 334226952,
+        "longitudeE7" : -1119368591,
+        "placeId" : "ChIJHWrpDNkIK4cRorgktM5G7kI",
+        "locationConfidence" : 5.104071
+      }, {
+        "latitudeE7" : 334251635,
+        "longitudeE7" : -1119359901,
+        "placeId" : "ChIJV5ol6tgIK4cRIY_nGPNyAC8",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.4947206
+      }, {
+        "latitudeE7" : 334210967,
+        "longitudeE7" : -1119355431,
+        "placeId" : "ChIJAd5J59sIK4cRuPPhKLtVjJs",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.2244544
+      }, {
+        "latitudeE7" : 334238448,
+        "longitudeE7" : -1119347168,
+        "placeId" : "ChIJ9Wd6mGYGK4cR0SgXwes1TPI",
+        "locationConfidence" : 0.91499454
+      }, {
+        "latitudeE7" : 334215572,
+        "longitudeE7" : -1119370626,
+        "placeId" : "ChIJm4PwftkIK4cRfVyKqEz8oWc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.7698708
+      }, {
+        "latitudeE7" : 334213885,
+        "longitudeE7" : -1119402994,
+        "placeId" : "ChIJf-wTWNcIK4cRQcDc_UFSd7Q",
+        "locationConfidence" : 0.5379478
+      }, {
+        "latitudeE7" : 334229807,
+        "longitudeE7" : -1119363853,
+        "placeId" : "ChIJo2u-FNkIK4cRHxMziVtorv0",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5302472
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 334225893,
+          "lngE7" : -1119367996,
+          "timestampMs" : "1612445861197",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334225955,
+          "lngE7" : -1119368063,
+          "timestampMs" : "1612446490674",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225847,
+          "lngE7" : -1119368018,
+          "timestampMs" : "1612449681854",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226088,
+          "lngE7" : -1119368196,
+          "timestampMs" : "1612449701941",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 334225901,
+          "lngE7" : -1119368069,
+          "timestampMs" : "1612449865518",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225935,
+          "lngE7" : -1119368067,
+          "timestampMs" : "1612450062498",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334225907,
+          "lngE7" : -1119368087,
+          "timestampMs" : "1612450089671",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225962,
+          "lngE7" : -1119368058,
+          "timestampMs" : "1612450149640",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 334225859,
+          "lngE7" : -1119368049,
+          "timestampMs" : "1612450209687",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334225961,
+          "lngE7" : -1119367984,
+          "timestampMs" : "1612450588364",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334225918,
+          "lngE7" : -1119368059,
+          "timestampMs" : "1612450731224",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226012,
+          "lngE7" : -1119368008,
+          "timestampMs" : "1612450851157",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225895,
+          "lngE7" : -1119367925,
+          "timestampMs" : "1612451341414",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225969,
+          "lngE7" : -1119368182,
+          "timestampMs" : "1612451443969",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225891,
+          "lngE7" : -1119368153,
+          "timestampMs" : "1612451948409",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226344,
+          "lngE7" : -1119368339,
+          "timestampMs" : "1612451998285",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 334225845,
+          "lngE7" : -1119368150,
+          "timestampMs" : "1612452193463",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334226015,
+          "lngE7" : -1119368251,
+          "timestampMs" : "1612452324535",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334225720,
+          "lngE7" : -1119368179,
+          "timestampMs" : "1612452750454",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 334226010,
+          "lngE7" : -1119368256,
+          "timestampMs" : "1612453116273",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225850,
+          "lngE7" : -1119368135,
+          "timestampMs" : "1612454813497",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334225908,
+          "lngE7" : -1119368189,
+          "timestampMs" : "1612454842365",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334225875,
+          "lngE7" : -1119368127,
+          "timestampMs" : "1612454900150",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334225926,
+          "lngE7" : -1119368145,
+          "timestampMs" : "1612454941159",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225816,
+          "lngE7" : -1119368223,
+          "timestampMs" : "1612455038921",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 334226208,
+          "lngE7" : -1119368289,
+          "timestampMs" : "1612455846952",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225924,
+          "lngE7" : -1119368091,
+          "timestampMs" : "1612456145805",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334226358,
+          "lngE7" : -1119368112,
+          "timestampMs" : "1612456647495",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 334225807,
+          "lngE7" : -1119368017,
+          "timestampMs" : "1612459583654",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334226031,
+          "lngE7" : -1119368017,
+          "timestampMs" : "1612459603685",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 334225812,
+          "lngE7" : -1119368015,
+          "timestampMs" : "1612460261899",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334225961,
+          "lngE7" : -1119367994,
+          "timestampMs" : "1612461153846",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225842,
+          "lngE7" : -1119367992,
+          "timestampMs" : "1612461173881",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225978,
+          "lngE7" : -1119368065,
+          "timestampMs" : "1612462444284",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 334225905,
+          "lngE7" : -1119368143,
+          "timestampMs" : "1612463252362",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 334226008,
+          "lngE7" : -1119368160,
+          "timestampMs" : "1612463293840",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225898,
+          "lngE7" : -1119368116,
+          "timestampMs" : "1612467270360",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225954,
+          "lngE7" : -1119368064,
+          "timestampMs" : "1612467324925",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334225913,
+          "lngE7" : -1119368050,
+          "timestampMs" : "1612467427304",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226097,
+          "lngE7" : -1119368009,
+          "timestampMs" : "1612467823132",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334225222,
+          "lngE7" : -1119367581,
+          "timestampMs" : "1612468337105",
+          "accuracyMeters" : 13
+        }, {
+          "latE7" : 334231004,
+          "lngE7" : -1119349074,
+          "timestampMs" : "1612468454764",
+          "accuracyMeters" : 18
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 334230703,
+        "longitudeE7" : -1119348947,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 334227510,
+        "longitudeE7" : -1119371581,
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1612468916700",
+        "endTimestampMs" : "1612469727974"
+      },
+      "distance" : 291,
+      "activityType" : "CYCLING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 80.70849180221558
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 15.30890166759491
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.8009820953011513
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.7170712109655142
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5213402211666107
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.47039794735610485
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.20875853952020407
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.11664894409477711
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.06777627277188003
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.03770457988139242
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.02626506902743131
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.01119172084145248
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003403985101613216
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.001069069367076736
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.2684541417229411E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 334230728,
+          "lngE7" : -1119349594
+        }, {
+          "latE7" : 334225921,
+          "lngE7" : -1119363632
+        }, {
+          "latE7" : 334227523,
+          "lngE7" : -1119366531
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 334242399,
+        "longitudeE7" : -1119280527,
+        "placeId" : "ChIJD1QzO9sIK4cRMzA8R39xbmY",
+        "address" : "Tempe, AZ 85281\nUSA",
+        "name" : "Arizona State University",
+        "sourceInfo" : {
+          "deviceTag" : -706032775
+        },
+        "locationConfidence" : 53.270004
+      },
+      "duration" : {
+        "startTimestampMs" : "1612469727974",
+        "endTimestampMs" : "1612579206513"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 334227161,
+          "longitudeE7" : -1119377406,
+          "placeId" : "ChIJOTM5EtkIK4cRcDn14TheUDg",
+          "address" : "712 S Forest Ave\nTempe, AZ 85281\nUSA",
+          "name" : "Union Tempe",
+          "sourceInfo" : {
+            "deviceTag" : -706032775
+          },
+          "locationConfidence" : 94.431366
+        },
+        "duration" : {
+          "startTimestampMs" : "1612469727974",
+          "endTimestampMs" : "1612488162763"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 334225965,
+        "centerLngE7" : -1119368476,
+        "visitConfidence" : 91,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 334259350,
+          "longitudeE7" : -1119367793,
+          "placeId" : "ChIJfUDSRpQJK4cR6mV5oldVlpQ",
+          "locationConfidence" : 0.05110676
+        }, {
+          "latitudeE7" : 334221680,
+          "longitudeE7" : -1119368280,
+          "placeId" : "ChIJ91whdMMJK4cR2KunDcjgm5Q",
+          "locationConfidence" : 0.04273994
+        }, {
+          "latitudeE7" : 334261205,
+          "longitudeE7" : -1119366379,
+          "placeId" : "ChIJEyiyk9gIK4cR9f-yioa6cvQ",
+          "locationConfidence" : 0.03292595
+        }, {
+          "latitudeE7" : 334234107,
+          "longitudeE7" : -1119352286,
+          "placeId" : "ChIJDT3Y19gIK4cRRWX59F14MUU",
+          "locationConfidence" : 0.02203632
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 334225965,
+      "centerLngE7" : -1119368476,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 334227600,
+        "longitudeE7" : -1119367752,
+        "placeId" : "ChIJpfSNC9kIK4cRLDJIay2zJDk",
+        "locationConfidence" : 6.945716
+      }, {
+        "latitudeE7" : 334226952,
+        "longitudeE7" : -1119368591,
+        "placeId" : "ChIJHWrpDNkIK4cRorgktM5G7kI",
+        "locationConfidence" : 6.211071
+      }, {
+        "latitudeE7" : 334238448,
+        "longitudeE7" : -1119347168,
+        "placeId" : "ChIJ9Wd6mGYGK4cR0SgXwes1TPI",
+        "locationConfidence" : 1.4690478
+      }, {
+        "latitudeE7" : 334210967,
+        "longitudeE7" : -1119355431,
+        "placeId" : "ChIJAd5J59sIK4cRuPPhKLtVjJs",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.8088938
+      }, {
+        "latitudeE7" : 334213885,
+        "longitudeE7" : -1119402994,
+        "placeId" : "ChIJf-wTWNcIK4cRQcDc_UFSd7Q",
+        "locationConfidence" : 0.6623112
+      }, {
+        "latitudeE7" : 334215572,
+        "longitudeE7" : -1119370626,
+        "placeId" : "ChIJm4PwftkIK4cRfVyKqEz8oWc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.49997926
+      }, {
+        "latitudeE7" : 334235981,
+        "longitudeE7" : -1119395366,
+        "placeId" : "ChIJ0zSTMtgIK4cRVxfPuPYr4U8",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.4899992
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 334225952,
+          "lngE7" : -1119368132,
+          "timestampMs" : "1612537393366",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226659,
+          "lngE7" : -1119368420,
+          "timestampMs" : "1612552269453",
+          "accuracyMeters" : 25
+        }, {
+          "latE7" : 334225830,
+          "lngE7" : -1119367910,
+          "timestampMs" : "1612552398652",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 334226829,
+          "lngE7" : -1119368845,
+          "timestampMs" : "1612553115836",
+          "accuracyMeters" : 28
+        }, {
+          "latE7" : 334225920,
+          "lngE7" : -1119368193,
+          "timestampMs" : "1612553163972",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 334227047,
+          "lngE7" : -1119368560,
+          "timestampMs" : "1612556289271",
+          "accuracyMeters" : 25
+        }, {
+          "latE7" : 334226094,
+          "lngE7" : -1119368094,
+          "timestampMs" : "1612556322694",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 334226462,
+          "lngE7" : -1119368360,
+          "timestampMs" : "1612556886028",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 334225918,
+          "lngE7" : -1119368097,
+          "timestampMs" : "1612557527607",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 334226786,
+          "lngE7" : -1119368285,
+          "timestampMs" : "1612559227457",
+          "accuracyMeters" : 24
+        }, {
+          "latE7" : 334225951,
+          "lngE7" : -1119368110,
+          "timestampMs" : "1612559254401",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 334226654,
+          "lngE7" : -1119368222,
+          "timestampMs" : "1612559291196",
+          "accuracyMeters" : 27
+        }, {
+          "latE7" : 334225925,
+          "lngE7" : -1119368136,
+          "timestampMs" : "1612559842669",
+          "accuracyMeters" : 15
+        } ]
+      }
+    }
+  } ],
+"custom": {
+
+	"activities":[
+		{
+			"source":"Brickyard",
+			"destination":"Tempe Beach Park",
+			"transportMode":"WALK",
+			"distance":1.0,
+			"destinationDuration":180
+		},
+		{
+			"source":"Bateman PSH",
+			"destination":"Walmart",
+			"transportMode":"TRANSIT",
+			"distance":2.2,
+			"destinationDuration":45
+		},
+		{
+			"source":"Walmart",
+			"destination":"1260 E University Dr",
+			"transportMode":"TRANSIT",
+			"distance":2.4,
+			"destinationDuration":60
+		},
+		{
+			"source":"Taco Bell",
+			"destination":"Top Golf",
+			"transportMode":"VEHICLE",
+			"distance":4.3,
+			"destinationDuration":60
+		},
+		{
+			"source":"1260 E University Dr",
+			"destination":"S Mill Avenue",
+			"transportMode":"WALK",
+			"distance":1.2,
+			"destinationDuration":20
+		},
+		{
+			"source":"S Mill Avenue",
+			"destination":"Tempe Town Lake",
+			"transportMode":"BIKE",
+			"distance":1.4,
+			"destinationDuration":15
+		},
+		{
+			"source":"1275 E University Dr",
+			"destination":"Papago Park",
+			"transportMode":"TRANSIT",
+			"distance":4.4,
+			"destinationDuration":150
+		},
+		{
+			"source":"Food City",
+			"destination":"Safeway",
+			"transportMode":"TRANSIT",
+			"distance":2.8,
+			"destinationDuration":50
+		},
+		{
+			"source":"1260 E University Dr",
+			"destination":"Statefarm",
+			"transportMode":"WALK",
+			"distance":1.8,
+			"destinationDuration":27
+		},
+		{
+			"source":"Statefarm",
+			"destination":"Tempe Liquidation Store",
+			"transportMode":"BIKE",
+			"distance":2.8,
+			"destinationDuration":30
+		}
+]
+}
+}
+
