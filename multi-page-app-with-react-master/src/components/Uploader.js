@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import style from './Menu.css';
 import Files from 'react-files';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -7,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import CountUp from 'react-countup';
 
 import Menu from '../components/Menu';
-
 
 export default class Uploader extends Component {
 
@@ -114,13 +112,13 @@ export default class Uploader extends Component {
         }}>
             <CardContent>
             <Typography variant="h3" component="h3">
-                Cycle
+                BIKE
             </Typography>
             <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["CYCLE"] ? 
+                {this.state.categories["BIKE"] ? 
                 <>
                 <CountUp
-                    end={this.state.categories["CYCLE"]}
+                    end={this.state.categories["BIKE"]}
                     duration={2}
                 />
                 </> : null}
@@ -150,9 +148,5 @@ export default class Uploader extends Component {
         </div>
         );
       }
-
-    
-
-
 
 }

@@ -3,14 +3,8 @@ import style from './Menu.css';
 
 export default class Menu extends Component {
 
-  
-
-
   render() {
     return (
-
-    
-      
 
         <ul className={style.Menu}>
           <li><a href="/index.html">Home</a></li>
@@ -19,7 +13,6 @@ export default class Menu extends Component {
           <li><a href="/App.html">App</a></li>
           <li><a href="/rewards.html">Rewards</a></li>
         </ul>
-
         
     );
   }
