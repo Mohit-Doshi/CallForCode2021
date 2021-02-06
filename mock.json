@@ -1811,7 +1811,7 @@
 		{
 			"source":"S Mill Avenue",
 			"destination":"Tempe Town Lake",
-			"transportMode":"CYCLE",
+			"transportMode":"BIKE",
 			"distance":1.4,
 			"destinationDuration":15
 		},
@@ -1839,7 +1839,7 @@
 		{
 			"source":"Statefarm",
 			"destination":"Tempe Liquidation Store",
-			"transportMode":"CYCLE",
+			"transportMode":"BIKE",
 			"distance":2.8,
 			"destinationDuration":30
 		}
