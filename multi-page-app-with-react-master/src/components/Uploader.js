@@ -4,8 +4,11 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CountUp from 'react-countup';
+import style from './Menu.css';
+import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 
 import Menu from '../components/Menu';
+import { Button } from '@material-ui/core';
 
 export default class Uploader extends Component {
 
@@ -55,15 +58,22 @@ export default class Uploader extends Component {
             <div className="files">
                 
                 <Menu />
-                <Files
-                    onChange={file => {
-                    // we choose readAsText() to load our file, and onload
-                    // event we rigister in this.fileReader would be triggered.
-                    this.fileReader.readAsText(file[0]);
-                    }}
+                <Button
+                    variant="contained"
+                    color="default"
+                    className={style.button}
+                    startIcon={<CloudUploadIcon />}
                 >
-                Drop files here or click to upload
-                </Files>
+                    <Files
+                        onChange={file => {
+                        // we choose readAsText() to load our file, and onload
+                        // event we rigister in this.fileReader would be triggered.
+                        this.fileReader.readAsText(file[0]);
+                        }}
+                    >
+                    Drop files here or click to upload
+                    </Files>
+                </Button>
                 
                 <Card style={{
             maxWidth: 200,

@@ -8,3 +8,7 @@
     font-family: 'MenuFont';
     list-style-type: square;
 }
+
+.button {
+  margin: 1px;
+}
