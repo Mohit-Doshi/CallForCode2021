@@ -1777,14 +1777,71 @@
 			"source":"Brickyard",
 			"destination":"Tempe Beach Park",
 			"transportMode":"WALKING",
-			"distance":"1.0",
-			"destinationDuration":"180",
+			"distance":1.0,
+			"destinationDuration":180
 		},
 		{
-
+			"source":"Bateman PSH",
+			"destination":"Walmart",
+			"transportMode":"BUS",
+			"distance":2.2,
+			"destinationDuration":45
 		},
 		{
-			
+			"source":"Walmart",
+			"destination":"1260 E University Dr",
+			"transportMode":"BUS",
+			"distance":2.4,
+			"destinationDuration":60
+		},
+		{
+			"source":"Taco Bell",
+			"destination":"Top Golf",
+			"transportMode":"VEHICLE",
+			"distance":4.3,
+			"destinationDuration":60
+		},
+		{
+			"source":"1260 E University Dr",
+			"destination":"S Mill Avenue",
+			"transportMode":"WALKING",
+			"distance":1.2,
+			"destinationDuration":20
+		},
+		{
+			"source":"S Mill Avenue",
+			"destination":"Tempe Town Lake",
+			"transportMode":"CYCLING",
+			"distance":1.4,
+			"destinationDuration":15
+		},
+		{
+			"source":"1275 E University Dr",
+			"destination":"Papago Park",
+			"transportMode":"BUS",
+			"distance":4.4,
+			"destinationDuration":150
+		},
+		{
+			"source":"Food City",
+			"destination":"Safeway",
+			"transportMode":"BUS",
+			"distance":2.8,
+			"destinationDuration":50
+		},
+		{
+			"source":"1260 E University Dr",
+			"destination":"Statefarm",
+			"transportMode":"WALKING",
+			"distance":1.8,
+			"destinationDuration":27
+		},
+		{
+			"source":"Statefarm",
+			"destination":"Tempe Liquidation Store",
+			"transportMode":"CYCLE",
+			"distance":2.8,
+			"destinationDuration":30
 		}
 ]
 }

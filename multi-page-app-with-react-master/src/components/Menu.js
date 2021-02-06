@@ -9,7 +9,8 @@ export default class Menu extends Component {
   constructor() {
     super();
     this.state = {
-      jsonFile: {}
+      jsonFile: {},
+      distances: [],
     };
   
     this.fileReader = new FileReader();
@@ -17,9 +18,20 @@ export default class Menu extends Component {
     this.fileReader.onload = (event) => {
   
       // or do whatever manipulation you want on JSON.parse(event.target.result) here.
+
+      // debugger;
+
+      // console.log(JSON.parse(event.target.result));
   
       this.setState({ jsonFile: JSON.parse(event.target.result) }, () => {
         console.log(this.state.jsonFile);
+      });
+      let distances = [];
+      this.state.jsonFile.custom.activities.forEach(obj => {
+        distances.push(obj.distance);
+      });
+      this.setState({
+        distances
       });
     };
   
