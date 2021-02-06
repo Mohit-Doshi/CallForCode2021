@@ -10,6 +10,60 @@ import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import Menu from '../components/Menu';
 import { Button } from '@material-ui/core';
 
+
+function calculateFootprint(arr)  {    // 0 - walking, 1 - biking, 2 - transit, 3 - vehicle 
+
+    var fprint = 0;
+
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = 0; j < arr[i].length; j++) {
+            if(i == 0) {
+                continue
+            }
+            if(i == 1) {
+                continue
+            }
+            if(i == 2) {
+                fprint += (arr[i][j] * 104)
+            }
+            if(i == 3) {
+
+                fprint += (arr[i][j] * 208)
+                
+            }
+
+        }
+    }
+
+    return fprint;
+
+}
+
+
+
+  function calculatePoints(arr) {
+
+    let fpoint = 0
+
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = 0; j < arr[i].length; j++) {
+            if(i == 0) {
+                fpoint += (arr[i][j]/10)
+            }
+            if(i == 1) {
+                fpoint += (arr[i][j]/10)
+            }
+            if(i == 2) {
+                fpoint += 1
+            }
+
+        }
+    }
+
+    return fpoint;
+
+  }
+
 export default class Uploader extends Component {
 
     constructor() {
@@ -18,6 +72,8 @@ export default class Uploader extends Component {
           jsonFile: {},
           distances: [],
           categories: {},
+          catdistances: new Array(), 
+          catdurations: new Array(),
         };
       
         this.fileReader = new FileReader();
@@ -34,8 +90,35 @@ export default class Uploader extends Component {
             console.log(this.state.jsonFile);
           });
           let distances = [], cats = {};
+          var catdistances = new Array(4);
+          var catdurations = new Array(4);
+
+        for (var i = 0; i < catdistances.length; i++) {
+            catdistances[i] = new Array()
+            catdurations[i] = new Array()
+        }
+
+
           this.state.jsonFile.custom.activities.forEach(obj => {
             distances.push(obj.distance);
+
+            if(obj.transportMode == "WALK") {
+                catdistances[0].push(obj.distance);
+                catdurations[0].push(obj.destinationDuration);
+            }
+            if(obj.transportMode == "BIKE") {
+                catdistances[1].push(obj.distance);
+                catdurations[1].push(obj.destinationDuration);
+            }
+            if(obj.transportMode == "TRANSIT") {
+                catdistances[2].push(obj.distance);
+                catdurations[2].push(obj.destinationDuration);
+            }
+            if(obj.transportMode == "VEHICLE") {
+                catdistances[3].push(obj.distance);
+                catdurations[3].push(obj.destinationDuration);
+            }
+
             if(cats[obj.transportMode] == null) {
               cats[obj.transportMode] = 1;
             } else {
@@ -43,14 +126,16 @@ export default class Uploader extends Component {
             }
           });
           this.setState({
+            catdistances,
             distances,
             categories: cats,
+            catdurations
           });
           console.log(this.state.categories["WALK"]);
         };
       
       }
-    
+
     
       render() {
         return (
@@ -102,13 +187,13 @@ export default class Uploader extends Component {
         }}>
             <CardContent>
             <Typography variant="h3" component="h3">
-                Bus
+                TRANSIT
             </Typography>
             <Typography variant="h2" color="textSecondary" component="p">
-                {this.state.categories["BUS"] ? 
+                {this.state.categories["TRANSIT"] ? 
                 <>
                 <CountUp
-                    end={this.state.categories["BUS"]}
+                    end={this.state.categories["TRANSIT"]}
                     duration={2}
                 />
                 </> : null}
@@ -155,6 +240,8 @@ export default class Uploader extends Component {
             </Typography>
             </CardContent>
         </Card>
+        <p>The footprint score is {calculateFootprint(this.state.catdistances)}</p>
+        <p>The POINTS score is {calculatePoints(this.state.catdurations)}</p>
         </div>
         );
       }
