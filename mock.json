@@ -1783,14 +1783,14 @@
 		{
 			"source":"Bateman PSH",
 			"destination":"Walmart",
-			"transportMode":"BUS",
+			"transportMode":"TRANSIT",
 			"distance":2.2,
 			"destinationDuration":45
 		},
 		{
 			"source":"Walmart",
 			"destination":"1260 E University Dr",
-			"transportMode":"BUS",
+			"transportMode":"TRANSIT",
 			"distance":2.4,
 			"destinationDuration":60
 		},
@@ -1818,14 +1818,14 @@
 		{
 			"source":"1275 E University Dr",
 			"destination":"Papago Park",
-			"transportMode":"BUS",
+			"transportMode":"TRANSIT",
 			"distance":4.4,
 			"destinationDuration":150
 		},
 		{
 			"source":"Food City",
 			"destination":"Safeway",
-			"transportMode":"BUS",
+			"transportMode":"TRANSIT",
 			"distance":2.8,
 			"destinationDuration":50
 		},
