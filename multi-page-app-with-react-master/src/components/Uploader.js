@@ -12,6 +12,14 @@ import DirectionsBusRoundedIcon from '@material-ui/icons/DirectionsBusRounded';
 import EmojiTransportationRoundedIcon from '@material-ui/icons/EmojiTransportationRounded';
 import Badge from '@material-ui/core/Badge';
 
+import Paper from '@material-ui/core/Paper';
+import {
+  Chart,
+  PieSeries,
+  Title,
+  Legend
+} from '@devexpress/dx-react-chart-material-ui';
+
 import Menu from '../components/Menu';
 import { Button } from '@material-ui/core';
 
@@ -19,21 +27,22 @@ import { Button } from '@material-ui/core';
 function calculateFootprint(arr)  {    // 0 - walking, 1 - biking, 2 - transit, 3 - vehicle 
 
     var fprint = 0;
+    debugger;
 
     for(let i = 0; i < arr.length; i++) {
         for(let j = 0; j < arr[i].length; j++) {
             if(i == 0) {
-                continue
+                continue;
             }
             if(i == 1) {
-                continue
+                continue;
             }
             if(i == 2) {
-                fprint += (arr[i][j] * 104)
+                fprint += (arr[i][j] * 104);
             }
             if(i == 3) {
 
-                fprint += (arr[i][j] * 208)
+                fprint += (arr[i][j] * 208);
                 
             }
 
@@ -41,7 +50,53 @@ function calculateFootprint(arr)  {    // 0 - walking, 1 - biking, 2 - transit, 
     }
 
     return fprint;
+}
 
+function generatePieData(dist, dur) {
+    const pieData = [];
+    var fprint = new Array(4).fill(0);
+    for(let i = 0; i < dist.length; i++) {
+        for(let j = 0; j < dist[i].length; j++) {
+            if(i == 0 || i == 1) {
+                // 1 kg CO2 emitted by breathing. Scaled it per minute
+                fprint[i] += dur[i][j] * 1000 / 1440;
+            }
+            if(i == 2) {
+                fprint[i] += (dist[i][j] * 104);
+            }
+            if(i == 3) {
+                fprint[i] += (dist[i][j] * 208);
+            }
+        }
+    }
+    for(var i = 0; i < fprint.length; i++) {
+        if(i == 0) {
+            pieData.push({
+                category: "Walk",
+                footprint: fprint[i],
+            });
+        }
+        if(i == 1) {
+            pieData.push({
+                category: "Bike",
+                footprint: fprint[i],
+            });
+        }
+        if(i == 2) {
+            pieData.push({
+                category: "Transit",
+                footprint: fprint[i],
+            });
+        }
+        if(i == 3) {
+            pieData.push({
+                category: "Vehicle",
+                footprint: fprint[i],
+            });
+        }
+    }
+    debugger;
+    return pieData;
 }
 
 
@@ -235,6 +290,24 @@ export default class Uploader extends Component {
                             <EmojiTransportationRoundedIcon style={{fontSize: '100px'}} />
                         </Badge>
                     </Grid>
+                </Grid>
+                <Grid container justify="center" alignItems="flex-start">
+                    <Paper>
+                        <Chart
+                            data={generatePieData(this.state.catdistances, this.state.catdurations)}
+                            width={500}
+                        >
+                            <Title
+                                text="CO2 Emission per Category"
+                            />
+                            <Legend/>
+                            <PieSeries
+                                valueField="footprint"
+                                argumentField="category"
+                                // outerRadius={0.6}
+                            />
+                        </Chart>
+                    </Paper>
                 </Grid>
         <p>The footprint score is {calculateFootprint(this.state.catdistances)}</p>
         <p>The POINTS score is {calculatePoints(this.state.catdurations)}</p>
