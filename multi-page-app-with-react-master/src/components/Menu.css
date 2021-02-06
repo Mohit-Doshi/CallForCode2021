@@ -7,6 +7,7 @@
     color: #808080;
     font-family: 'MenuFont';
     list-style-type: square;
+    font-size: large;
 }
 
 
@@ -14,6 +15,7 @@
 .nav {
   background: #d9f7be;
   height: 60px; /* set same as height & line-height below */
+  text-align: center;
 }
 
 /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
@@ -27,14 +29,14 @@
 
 /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
 .nav li:hover {
-  background: red;
+  background: white;
   transition: background .3s;
 }
 
 /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
-.nav-link {
-  color: #fff;
+.nav a {
   text-decoration: none;
+  font-size: large;
 }
 
 .button {
