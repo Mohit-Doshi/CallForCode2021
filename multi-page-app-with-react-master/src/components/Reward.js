@@ -17,10 +17,15 @@ render() {
       <div>
           <p>The points are {points} </p>
 
-        <h2>Available Coupons</h2>
+        <div id="cpns">
+            <h2>&nbsp;&nbsp;&nbsp;Available Coupons</h2>
+            <Coupon />
+        </div>
+        <div id="charities">
 
-          <Coupon />
-      </div>
+        </div>
+
+        </div>
     )
   }
 
