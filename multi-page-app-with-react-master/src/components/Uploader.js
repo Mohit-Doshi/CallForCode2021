@@ -65,6 +65,8 @@ function calculateFootprint(arr)  {    // 0 - walking, 1 - biking, 2 - transit, 
         }
     }
 
+    localStorage.setItem("ctcpoints", fpoint);
+
     return fpoint;
 
   }
