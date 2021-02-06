@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import style from './Menu.css';
 import Files from 'react-files';
-
-
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import CountUp from 'react-countup';
 
 export default class Menu extends Component {
 
@@ -11,6 +13,7 @@ export default class Menu extends Component {
     this.state = {
       jsonFile: {},
       distances: [],
+      categories: {},
     };
   
     this.fileReader = new FileReader();
@@ -26,13 +29,20 @@ export default class Menu extends Component {
       this.setState({ jsonFile: JSON.parse(event.target.result) }, () => {
         console.log(this.state.jsonFile);
       });
-      let distances = [];
+      let distances = [], cats = {};
       this.state.jsonFile.custom.activities.forEach(obj => {
         distances.push(obj.distance);
+        if(cats[obj.transportMode] == null) {
+          cats[obj.transportMode] = 1;
+        } else {
+          cats[obj.transportMode] += 1;
+        }
       });
       this.setState({
-        distances
+        distances,
+        categories: cats,
       });
+      console.log(this.state.categories["WALK"]);
     };
   
   }
@@ -60,8 +70,89 @@ export default class Menu extends Component {
           <li><a href="/index.html">Home</a></li>
           <li><a href="/products/product-1.html">Product</a></li>
           <li><a href="/contact.html">Results?</a></li>
-          <li><a href="/App.html">App</a></li>
+          <li><a href="/app.html">App</a></li>
         </ul>
+
+        <Card style={{
+          maxWidth: 200,
+          height: 140,
+          textAlign: 'center'
+        }}>
+          <CardContent>
+            <Typography variant="h3" component="h3">
+              Walk
+            </Typography>
+            <Typography variant="h2" color="textSecondary" component="p">
+              {this.state.categories["WALK"] ? 
+              <>
+                <CountUp
+                  end={this.state.categories["WALK"]}
+                  duration={2}
+                />
+              </> : null}
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card style={{
+          maxWidth: 200,
+          height: 140,
+          textAlign: 'center'
+        }}>
+          <CardContent>
+            <Typography variant="h3" component="h3">
+              Bus
+            </Typography>
+            <Typography variant="h2" color="textSecondary" component="p">
+              {this.state.categories["BUS"] ? 
+              <>
+                <CountUp
+                  end={this.state.categories["BUS"]}
+                  duration={2}
+                />
+              </> : null}
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card style={{
+          maxWidth: 200,
+          height: 140,
+          textAlign: 'center'
+        }}>
+          <CardContent>
+            <Typography variant="h3" component="h3">
+              Cycle
+            </Typography>
+            <Typography variant="h2" color="textSecondary" component="p">
+              {this.state.categories["CYCLE"] ? 
+              <>
+                <CountUp
+                  end={this.state.categories["CYCLE"]}
+                  duration={2}
+                />
+              </> : null}
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card style={{
+          maxWidth: 200,
+          height: 140,
+          textAlign: 'center'
+        }}>
+          <CardContent>
+            <Typography variant="h3" component="h3">
+              Vehicle
+            </Typography>
+            <Typography variant="h2" color="textSecondary" component="p">
+              {this.state.categories["VEHICLE"] ? 
+              <>
+                <CountUp
+                  end={this.state.categories["VEHICLE"]}
+                  duration={2}
+                />
+              </> : null}
+            </Typography>
+          </CardContent>
+        </Card>
       </div>
     );
   }

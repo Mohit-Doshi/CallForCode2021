@@ -1776,7 +1776,7 @@
 		{
 			"source":"Brickyard",
 			"destination":"Tempe Beach Park",
-			"transportMode":"WALKING",
+			"transportMode":"WALK",
 			"distance":1.0,
 			"destinationDuration":180
 		},
@@ -1804,14 +1804,14 @@
 		{
 			"source":"1260 E University Dr",
 			"destination":"S Mill Avenue",
-			"transportMode":"WALKING",
+			"transportMode":"WALK",
 			"distance":1.2,
 			"destinationDuration":20
 		},
 		{
 			"source":"S Mill Avenue",
 			"destination":"Tempe Town Lake",
-			"transportMode":"CYCLING",
+			"transportMode":"CYCLE",
 			"distance":1.4,
 			"destinationDuration":15
 		},
@@ -1832,7 +1832,7 @@
 		{
 			"source":"1260 E University Dr",
 			"destination":"Statefarm",
-			"transportMode":"WALKING",
+			"transportMode":"WALK",
 			"distance":1.8,
 			"destinationDuration":27
 		},
