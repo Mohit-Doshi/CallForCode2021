@@ -60,7 +60,7 @@ export default class Uploader extends Component {
               <li><a href="/index.html">Home</a></li>
               <li><a href="/products/product-1.html">Product</a></li>
               <li><a href="/contact.html">Results?</a></li>
-              <li><a href="/app.html">App</a></li>
+              <li><a href="/App.html">App</a></li>
             </ul>
           </div>
         );
